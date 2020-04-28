@@ -157,7 +157,7 @@ void Item::New_Item()
 void Item::Edit_Item(std::ofstream& Out_File)
 {
 	Item n;
-	//Input for variables common to all objects created
+	
 	++(*ID_pointer);
 	std::cout << "Unique ID code created for this item is: " << Unique_ID << "\n";
 
@@ -257,7 +257,7 @@ void Clothing::New_Item(void)
 	std::cout << "ADDING A NEW CLOTHING ITEM" << "\n\n";
 
 	Item::New_Item();
-	//Input for unique variables to Clothing objects
+
 	std::cout << "Enter Clothig Colour: ";
 	std::cin.ignore();
 	std::cin.getline(Clothing_Colour, 30);
@@ -291,7 +291,7 @@ void Clothing::Edit_Item(std::ofstream& Out_File, const std::string& Row_Buffer)
 	std::cout << Row_Buffer << "\n\n";
 
 	Item::Edit_Item(Out_File);
-	//Input for unique variables to Clothing objects
+
 	std::cout << "Enter Clothig Colour: ";
 	std::cin.ignore();
 	std::cin.getline(Clothing_Colour, 30);
