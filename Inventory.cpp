@@ -184,7 +184,7 @@ void Inventory::Change_Item_Quantity(int New_Quantity)
 * if no match was found it returns -1
 *
 * @author Jordan Smart <smart-j2@ulster.ac.uk>
-* @license <https://fsf.org>
+* @license <http://www.gnu.org/licenses/gpl-3.0.html>
 * @copyright Jordan Smart 2020
 *
 * @todo Is quite unelagent. finished is not used. Could be cleaned up into a FOR loop.
