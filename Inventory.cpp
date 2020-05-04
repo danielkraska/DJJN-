@@ -15,7 +15,7 @@ using namespace std;
 * entries. Some functions are used to navigate the menu
 *
 * @author Jordan Smart <smart-j2@ulster.ac.uk>
-* @license <https://fsf.org>
+* @license  <http://www.gnu.org/licenses/gpl-3.0.html>
 * @copyright Jordan Smart 2020
 *
 * @todo Query about if Unique ID should be public? Kept public to be the same as other's code.
